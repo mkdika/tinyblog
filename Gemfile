@@ -34,12 +34,23 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Custom gem libraries
+# CUSTOMIZE LIBRARIES
+# ===================
+
+# Utilities
 gem 'awesome_rails_console' # to have more human readable rails console
+
+# Admin Page
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
-gem 'rails_admin_rollincode', '~> 1.0'
+gem 'rails_admin_rollincode', '~> 1.2.1'
+gem 'rails_admin_nestable', '~> 0.3.2'
 gem "devise"
+gem 'devise-bootstrapped'
+
+# Front Page
+gem 'jquery-rails'
+gem 'font-awesome-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
