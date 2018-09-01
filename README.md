@@ -35,18 +35,24 @@ _Coming soon.._
 ## Reference and Related Documents
 
 - [Rails Admin Theme](https://onebitcode.com/english-rails-admin/)
+- [Rails Bootstrap Sass](https://github.com/twbs/bootstrap-sass)
 
 ## Copyright and License
 
 Copyright 2018 Maikel Chandika (mkdika@gmail.com). Code released under the 
 Apache License, Version 2.0. See [LICENSE](/LICENSE) file.
 
-## TODO
+## Todo
 
-### Admin Page
+- [x] Have proper admin page lib.
 
-- [ ] make over admin login page.
-- [ ] change admin page theme color.
+## __Last Problems__
+
+- Authentication/ Authorization not integrated by default with current admin page lib.
+- Need to make over admin page login.
+- Rails runtime (startup server, open page, etc) take too slow on Windows 10 x64.
+- Research about ready to used and advanced web widget still not conduct yet.
+
 
 ### Front Page
 

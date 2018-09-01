@@ -46,11 +46,12 @@ gem 'rails_admin', github: 'sferik/rails_admin'
 gem 'rails_admin_rollincode', '~> 1.2.1'
 gem 'rails_admin_nestable', '~> 0.3.2'
 gem "devise"
-gem 'devise-bootstrapped'
+gem 'devise-bootstrap-views'
 
 # Front Page
 gem 'jquery-rails'
 gem 'font-awesome-rails'
+gem 'bootstrap-sass', '~> 3.3.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
