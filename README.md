@@ -46,14 +46,9 @@ Apache License, Version 2.0. See [LICENSE](/LICENSE) file.
 
 - [x] Have proper admin page lib.
 
-## __Last Problems__
+## Last Problems
 
 - Authentication/ Authorization not integrated by default with current admin page lib.
 - Need to make over admin page login.
 - Rails runtime (startup server, open page, etc) take too slow on Windows 10 x64.
 - Research about ready to used and advanced web widget still not conduct yet.
-
-
-### Front Page
-
-_Coming soon..._
